@@ -1,0 +1,28 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: red;
+  margin-top: 60px;
+}
+
+body{
+  cursor: url("snoopy.gif"),auto;
+  background-color: #d7e0f9;
+  margin: 0;
+  overflow: hidden;
+}
+
+#buttoncontainer {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#startbutton {
+  filter: drop-shadow(-2px 5px 17px #4062bf);
+}
